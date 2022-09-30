@@ -8,14 +8,19 @@ import {Link} from 'react-router-dom'
 const Articles = () => {
   const [posts, setPosts] = useState([]);
 
-  useEffect(() => {
-   async function fetchData() {
-      await axios
-        .get("http://servicepad-post-api.herokuapp.com/articles/")
-        .then((res) => setPosts(res.data.data));
+
+  async function fetchData() {
+    let axiosGet = await axios .get("http://servicepad-post-api.herokuapp.com/articles/")
+     .then((res) => setPosts(res.data.data))
+    
+    try{
+      axiosGet()
+     
+    } catch(err){
+      console.error(err)
     }
-    fetchData();
-  }, []);
+  }
+  fetchData();
 
   const sortedArticles = posts
     .slice()
