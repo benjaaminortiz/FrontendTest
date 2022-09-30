@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background: #F9F9F9;
 }
 
 .App-logo {
@@ -26,6 +27,27 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.gradient {
+    box-sizing: border-box;
+    cursor: pointer;
+    min-width: 165px;
+    height: 45px;
+    color: #FFFFFF;
+    font-weight: 400;
+    border: none;
+    font-family: 'Public Sans', sans-serif;
+    transition: 0.3s;
+    background: linear-gradient(90deg, #31CF70 4.85%, #2CB9CB 100%);
+    border-radius: 89px;
+
+}
+
+
+.gradient:hover{
+  filter:opacity(0.5);
+  transition: 0.3s;
 }
 
 @keyframes App-logo-spin {

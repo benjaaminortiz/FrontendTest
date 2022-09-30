@@ -1,0 +1,72 @@
+.previous {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.previous h1{
+   color: #2D314E;
+   font-size: 40px;
+   line-height: 62px;
+   
+   text-align: left;
+   margin-left: 10%;
+   font-weight: 400;
+   letter-spacing: -0.02em;
+}
+
+.previous h5{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    
+   text-align: left;
+   margin-left: 10%;
+    color: #99989D;
+
+}
+
+.previous table {
+    width: 78%;
+    margin: 50px auto;
+    text-align: left;
+    box-shadow: 0px 1px 50px rgb(200, 200, 200);
+    background-color: #f9f9f9;
+    padding: 2%;
+    border-radius: 8px;
+}
+
+.previous table * {
+    overflow: hidden;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.tags th {
+    width: 20%;
+    padding: 20px;
+    background-color: rgba(200, 200, 200, 0.4);
+}
+
+
+.results th {
+    width: 20%;
+    font-weight: 400;
+}
+
+
+.tags :nth-child(3) {
+    width: 40%;
+}
+
+.results :nth-child(3) {
+    width: 40%;
+}
+
+.edit-button {
+    background-color: #f9f9f9;
+    border: none;
+    font-size: 20px;
+    color: #31CF70;
+    font-weight: 600;
+}

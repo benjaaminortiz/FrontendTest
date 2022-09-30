@@ -1,0 +1,80 @@
+.form-container {
+    border-radius: 8px;
+    width: 80%;
+    max-width: 710px;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: #FFF;
+    box-shadow: 0px 1px 50px rgb(200, 200, 200);
+}
+
+.na-text{
+    text-align: left;
+    margin: 0px 10% ;
+}
+.na-text h1 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: -0.02em;
+    color: #2D314E;
+
+}
+
+.na-text h5 {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #99989D;
+
+}
+
+
+.form-container form {
+    width: 100%;
+}
+
+.form-container form div {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+
+}
+
+.form-container form div span {
+    line-height: 20px;
+    text-align: left;
+
+}
+
+.form-container form div input {
+    box-shadow: 0px 1px 60px rgb(200, 200, 200);
+    border: none;
+    background: #F8F8F8;
+
+    border-radius: 8px;
+    height: 50px;
+    font-size: 16px;
+}
+
+.form-container form div textarea {
+    background: #F8F8F8;
+    font-family: 'Public Sans';
+    min-height: 333px !important;
+    max-height: 444px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 1px 50px rgb(200, 200, 200);
+    width: 100% !important;
+    font-size: 16px;
+    text-align: start;
+    width: auto;
+}
+
+.submit-btn {
+    width: 90%;
+    margin: 20px 0px;
+}

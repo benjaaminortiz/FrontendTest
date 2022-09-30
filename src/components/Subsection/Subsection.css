@@ -1,0 +1,36 @@
+.sub {
+    background-color: transparent;
+    font-family: 'Public Sans', sans-serif;
+    position: relative;
+    top: -200px;
+    margin: 2rem 10%;
+    height: fit-content;
+    margin-bottom: -100px;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.main-title{
+    text-align: left;
+}
+.main-title h1{
+    font-size: 40px;
+    font-weight: 400;
+    color: #2D314E;
+    line-height: 62px;
+    letter-spacing: -0.02em;
+}
+
+.main-title p {
+    line-height: 25px;
+    font-size: 17px;
+    text-align: left;
+    color: #959499;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  
+}

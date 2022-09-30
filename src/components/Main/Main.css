@@ -1,0 +1,42 @@
+.main {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    max-height: 700px;
+    
+}
+
+.image {
+    position: relative;
+    right: 0px;
+    top: 0px;
+    max-width: 50%;
+    object-fit: cover;
+    z-index: 1000;
+    overflow-y: visible;
+    top: 0px;
+}
+
+.title-container {
+    justify-content: center;
+    height: 665px;
+    text-align: left;
+    flex-direction: column ;
+    margin-left: 10%;
+    margin-top: 2rem;
+}
+
+.title-container h1 {
+    color: #2D314E;
+    line-height: 62px;
+    font-size: 53px;
+    display: inline-block;
+    font-weight: 400;
+}
+.title-container p {
+font-size: 18px;
+letter-spacing: -0.01em;
+color: #959499;
+line-height: 28.5px
+}
